@@ -1,0 +1,26 @@
+/* CSS for Blocked Page */
+.blocked-container {
+    text-align: center;
+    margin-top: 15%;
+    font-family: Arial, sans-serif;
+    color: #ff4d4d;
+}
+
+.blocked-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.blocked-container p {
+    font-size: 1.2rem;
+}
+
+.blocked-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.blocked-container a:hover {
+    color: #0056b3;
+}
