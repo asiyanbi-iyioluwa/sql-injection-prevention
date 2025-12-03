@@ -2,15 +2,12 @@
 
 import joblib
 import os
-import re
+from utils import preprocess
 
 # Load vectorizer and model once
 model_dir = os.path.join(os.getcwd(), 'ml_models')
 vectorizer = joblib.load(os.path.join(model_dir, 'vectorizer.pkl'))
 model = joblib.load(os.path.join(model_dir, 'sqli_detector_model.pkl'))
-
-def preprocess(query):
-    return re.sub(r"[^\w\s]", "", query.lower())
 
 def detect_with_model(query):
     processed = preprocess(query)

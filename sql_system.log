@@ -214,3 +214,170 @@
 2025-05-23 23:14:42,574 - INFO -  * Debugger PIN: 194-229-021
 2025-05-23 23:14:45,998 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
 2025-05-23 23:15:36,004 - INFO - 127.0.0.1 - - [23/May/2025 23:15:36] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-05-24 19:25:17,052 - INFO -  * Restarting with stat
+2025-05-24 19:25:19,009 - WARNING -  * Debugger is active!
+2025-05-24 19:25:19,015 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:25:20,996 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:27:43,018 - INFO - 127.0.0.1 - - [24/May/2025 19:27:43] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-05-24 19:29:19,630 - INFO - 127.0.0.1 - - [24/May/2025 19:29:19] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-05-24 19:53:58,835 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\routes\\profile_routes.py', reloading
+2025-05-24 19:53:59,630 - INFO -  * Restarting with stat
+2025-05-24 19:54:02,607 - WARNING -  * Debugger is active!
+2025-05-24 19:54:02,612 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:54:04,745 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:55:02,931 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:55:03,143 - INFO -  * Restarting with stat
+2025-05-24 19:55:05,232 - WARNING -  * Debugger is active!
+2025-05-24 19:55:05,239 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:55:07,652 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:56:11,171 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:56:11,360 - INFO -  * Restarting with stat
+2025-05-24 19:56:13,204 - WARNING -  * Debugger is active!
+2025-05-24 19:56:13,210 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:56:15,312 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:56:28,892 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:56:29,053 - INFO -  * Restarting with stat
+2025-05-24 19:56:30,664 - WARNING -  * Debugger is active!
+2025-05-24 19:56:30,670 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:56:32,749 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:56:36,984 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:56:37,161 - INFO -  * Restarting with stat
+2025-05-24 19:56:38,795 - WARNING -  * Debugger is active!
+2025-05-24 19:56:38,800 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:56:40,710 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:56:59,867 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:57:00,064 - INFO -  * Restarting with stat
+2025-05-24 19:57:01,945 - WARNING -  * Debugger is active!
+2025-05-24 19:57:01,952 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:57:03,935 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:57:35,294 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:57:35,474 - INFO -  * Restarting with stat
+2025-05-24 19:57:37,457 - WARNING -  * Debugger is active!
+2025-05-24 19:57:37,462 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:57:39,469 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:58:41,274 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:58:41,445 - INFO -  * Restarting with stat
+2025-05-24 19:58:43,114 - WARNING -  * Debugger is active!
+2025-05-24 19:58:43,118 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:58:45,123 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:58:46,813 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:58:46,977 - INFO -  * Restarting with stat
+2025-05-24 19:58:48,641 - WARNING -  * Debugger is active!
+2025-05-24 19:58:48,647 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:58:50,550 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:58:55,338 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 19:58:55,504 - INFO -  * Restarting with stat
+2025-05-24 19:58:57,047 - WARNING -  * Debugger is active!
+2025-05-24 19:58:57,051 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:58:59,068 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 19:59:24,939 - INFO -  * Restarting with stat
+2025-05-24 19:59:26,654 - WARNING -  * Debugger is active!
+2025-05-24 19:59:26,660 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 19:59:28,591 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:01:58,159 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:01:58,442 - INFO -  * Restarting with stat
+2025-05-24 20:02:00,725 - WARNING -  * Debugger is active!
+2025-05-24 20:02:00,731 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:02:02,991 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:03:17,972 - INFO - 127.0.0.1 - - [24/May/2025 20:03:17] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-05-24 20:06:03,697 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:06:04,249 - INFO -  * Restarting with stat
+2025-05-24 20:06:06,875 - WARNING -  * Debugger is active!
+2025-05-24 20:06:06,881 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:06:09,083 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:10:21,666 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:10:22,104 - INFO -  * Restarting with stat
+2025-05-24 20:10:24,282 - WARNING -  * Debugger is active!
+2025-05-24 20:10:24,289 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:10:26,554 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:18:03,257 - INFO - 127.0.0.1 - - [24/May/2025 20:18:03] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-05-24 20:22:59,239 - INFO - 127.0.0.1 - - [24/May/2025 20:22:59] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-05-24 20:32:34,293 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:32:35,141 - INFO -  * Restarting with stat
+2025-05-24 20:32:38,136 - WARNING -  * Debugger is active!
+2025-05-24 20:32:38,143 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:32:40,164 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:32:58,689 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:32:58,943 - INFO -  * Restarting with stat
+2025-05-24 20:33:01,161 - WARNING -  * Debugger is active!
+2025-05-24 20:33:01,166 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:33:03,422 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:33:08,387 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:33:08,575 - INFO -  * Restarting with stat
+2025-05-24 20:33:10,325 - WARNING -  * Debugger is active!
+2025-05-24 20:33:10,331 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:33:12,884 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:33:14,876 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:33:15,052 - INFO -  * Restarting with stat
+2025-05-24 20:33:16,744 - WARNING -  * Debugger is active!
+2025-05-24 20:33:16,750 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:33:18,750 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:33:47,590 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:33:47,775 - INFO -  * Restarting with stat
+2025-05-24 20:33:49,494 - WARNING -  * Debugger is active!
+2025-05-24 20:33:49,499 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:33:51,793 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:33:54,045 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:33:54,207 - INFO -  * Restarting with stat
+2025-05-24 20:33:55,838 - WARNING -  * Debugger is active!
+2025-05-24 20:33:55,843 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:33:57,811 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:45:05,737 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:45:06,982 - INFO -  * Restarting with stat
+2025-05-24 20:45:09,915 - WARNING -  * Debugger is active!
+2025-05-24 20:45:09,922 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:45:12,479 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:45:24,445 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:45:24,653 - INFO -  * Restarting with stat
+2025-05-24 20:45:26,969 - WARNING -  * Debugger is active!
+2025-05-24 20:45:26,976 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:45:29,386 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-24 20:46:47,681 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-24 20:46:47,914 - INFO -  * Restarting with stat
+2025-05-24 20:46:50,774 - WARNING -  * Debugger is active!
+2025-05-24 20:46:50,782 - INFO -  * Debugger PIN: 194-229-021
+2025-05-24 20:46:53,063 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:10:08,291 - INFO -  * Restarting with stat
+2025-05-27 07:10:10,833 - WARNING -  * Debugger is active!
+2025-05-27 07:10:10,839 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:10:14,834 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:18:16,078 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-27 07:18:16,790 - INFO -  * Restarting with stat
+2025-05-27 07:18:38,357 - WARNING -  * Debugger is active!
+2025-05-27 07:18:38,363 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:18:41,221 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:18:42,966 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-27 07:18:43,122 - INFO -  * Restarting with stat
+2025-05-27 07:18:44,924 - WARNING -  * Debugger is active!
+2025-05-27 07:18:44,930 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:18:47,697 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:18:53,292 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-27 07:18:53,462 - INFO -  * Restarting with stat
+2025-05-27 07:18:55,180 - WARNING -  * Debugger is active!
+2025-05-27 07:18:55,185 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:18:58,018 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:19:22,988 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\web_app.py', reloading
+2025-05-27 07:19:23,153 - INFO -  * Restarting with stat
+2025-05-27 07:19:24,983 - WARNING -  * Debugger is active!
+2025-05-27 07:19:24,988 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:19:27,707 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:20:05,630 - INFO -  * Restarting with stat
+2025-05-27 07:20:07,660 - WARNING -  * Debugger is active!
+2025-05-27 07:20:07,665 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:20:10,765 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:20:18,250 - INFO - 127.0.0.1 - - [27/May/2025 07:20:18] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-05-27 07:28:57,479 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\utils.py', reloading
+2025-05-27 07:28:57,698 - INFO -  * Restarting with stat
+2025-05-27 07:28:59,905 - WARNING -  * Debugger is active!
+2025-05-27 07:28:59,911 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:29:02,913 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:30:07,921 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\utils.py', reloading
+2025-05-27 07:30:08,104 - INFO -  * Restarting with stat
+2025-05-27 07:30:10,012 - WARNING -  * Debugger is active!
+2025-05-27 07:30:10,018 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:30:12,898 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+2025-05-27 07:30:44,328 - INFO -  * Detected change in 'c:\\Users\\iyiol\\Sql_prevention_project\\dectection_api.py', reloading
+2025-05-27 07:30:44,500 - INFO -  * Restarting with stat
+2025-05-27 07:30:46,273 - WARNING -  * Debugger is active!
+2025-05-27 07:30:46,279 - INFO -  * Debugger PIN: 194-229-021
+2025-05-27 07:30:49,387 - INFO -  * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)

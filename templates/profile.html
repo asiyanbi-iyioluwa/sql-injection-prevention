@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Profile</title></head>
+<body>
+    <h1>Profile</h1>
+    <h2>Blocked IPs</h2>
+    <ul>
+    {% for ip in blocked_ips %}
+        <li>{{ ip }}</li>
+    {% endfor %}
+    </ul>
+    <h2>Query Log</h2>
+    <ul>
+    {% for log in query_log %}
+        <li>ID: {{ log.id }} - Query: {{ log.query }} - IP: {{ log.ip }} - Status: {{ log.status }}</li>
+    {% endfor %}
+    </ul>
+    <a href="/dashboard">Dashboard</a> | <a href="/admin/logout">Logout</a>
+</body>
+</html>

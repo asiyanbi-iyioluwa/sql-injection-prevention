@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 2rem;
+            background-color: #f8f9fa;
+        }
+        .card {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4">SQLi Detection Admin Dashboard</h1>
+
+        {# Logs Section #}
+        <div class="card">
+            <div class="card-header bg-primary text-white">Real-Time Logs</div>
+            <div class="card-body">
+                <pre id="logContent" style="background: #000; color: #0f0; padding: 1em; height: 400px; overflow-y: scroll;"></pre>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-primary text-white">Query Logs</div>
+            <div class="card-body">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Timestamp</th>
+                            <th>Query</th>
+                            <th>IP</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for log in logs %}
+                        <tr>
+                            <td>{{ log[0] }}</td>
+                            <td>{{ log[4] }}</td>
+                            <td><code>{{ log[1] }}</code></td>
+                            <td>{{ log[2] }}</td>
+                            <td>{{ log[3] }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        {# IP Management #}
+        <div class="card">
+            <div class="card-header bg-dark text-white">Manage IPs</div>
+            <div class="card-body">
+                <form action="/block-ip" method="POST" class="mb-3">
+                    <label for="block_ip">Block IP</label>
+                    <input type="text" name="block_ip" class="form-control" placeholder="e.g., 192.168.1.100" required>
+                    <button class="btn btn-danger mt-2" type="submit">Block</button>
+                </form>
+                <form action="/whitelist-ip" method="POST">
+                    <label for="whitelist_ip">Whitelist IP</label>
+                    <input type="text" name="whitelist_ip" class="form-control" placeholder="e.g., 192.168.1.101" required>
+                    <button class="btn btn-success mt-2" type="submit">Whitelist</button>
+                </form>
+            </div>
+        </div>
+
+        {# Query Control #}
+        <div class="card">
+            <div class="card-header bg-warning">Manual Query Control</div>
+            <div class="card-body">
+                <form action="/manual-decision" method="POST">
+                    <label for="query_text">Suspected Query</label>
+                    <textarea name="query_text" class="form-control" rows="3" required></textarea>
+                    <div class="mt-3">
+                        <button class="btn btn-success" name="decision" value="allow" type="submit">Allow</button>
+                        <button class="btn btn-danger" name="decision" value="block" type="submit">Block</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <a href="/profile">Profile</a> | <a href="/admin/logout">Logout</a>
+    </div>
+
+    <script>
+        function fetchLogs() {
+            fetch('/logs/system')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.logs) {
+                        document.getElementById("logContent").innerText = data.logs.join("\n");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching logs:", error);
+                });
+        }
+        // Fetch logs every 10 seconds
+        setInterval(fetchLogs, 10000);
+        fetchLogs();
+    </script>
+
+</body>
+</html>

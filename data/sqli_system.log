@@ -1,0 +1,143 @@
+ERROR:__main__:Failed to load models: [Errno 2] No such file or directory: 'C:\\Users\\iyiol\\Sql_prevention_project\\ml_models\\model.pkl'
+ERROR:__main__:Failed to load models: [Errno 2] No such file or directory: 'C:\\Users\\iyiol\\Sql_prevention_project\\ml_models\\model.pkl'
+INFO:__main__:Models loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.23.180:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:Models loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 878-721-165
+INFO:__main__:Database initialized successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.23.180:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:Database initialized successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 878-721-165
+DEBUG:__main__:Accessing /admin/login route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:21:48] "GET /admin/login HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /admin/login route
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:__main__:Accessing /filter_query route
+ERROR:__main__:Error processing query: X has 14 features, but RandomForestClassifier is expecting 15 features as input.
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:21:52] "[35m[1mPOST /filter_query HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:http://localhost:5002 "POST /filter_query HTTP/1.1" 500 116
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:21:52] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+DEBUG:__main__:Accessing /dashboard route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:21:53] "GET /dashboard HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:21:54] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:04] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /home route
+DEBUG:__main__:Rendering login.html
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:07] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:07] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:15] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /home route
+DEBUG:__main__:POST request: ImmutableMultiDict([('username', "' OR 1=1 --"), ('password', 'admin123')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:__main__:Accessing /filter_query route
+ERROR:__main__:Error processing query: X has 14 features, but RandomForestClassifier is expecting 15 features as input.
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:18] "[35m[1mPOST /filter_query HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:http://localhost:5002 "POST /filter_query HTTP/1.1" 500 116
+DEBUG:__main__:API response: 500, {
+  "error": "Processing error: X has 14 features, but RandomForestClassifier is expecting 15 features as input."
+}
+
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:18] "POST /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:18] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:24] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:34] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:44] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:22:54] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:23:04] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:23:14] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:23:24] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:23:34] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:23:44] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:23:54] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:24:04] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:24:14] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:24:24] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:24:34] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:24:44] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:24:54] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:25:04] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:25:14] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:25:24] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:25:34] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:25:44] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:25:55] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:05] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /home route
+DEBUG:__main__:POST request: ImmutableMultiDict([('username', "' OR 1=1"), ('password', 'admin123')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:__main__:Accessing /filter_query route
+ERROR:__main__:Error processing query: X has 14 features, but RandomForestClassifier is expecting 15 features as input.
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:08] "[35m[1mPOST /filter_query HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:http://localhost:5002 "POST /filter_query HTTP/1.1" 500 116
+DEBUG:__main__:API response: 500, {
+  "error": "Processing error: X has 14 features, but RandomForestClassifier is expecting 15 features as input."
+}
+
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:08] "POST /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:08] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:15] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:25] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:35] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:45] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:26:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:27:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:28:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:29:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:30:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:31:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:32:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:33:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:34:56] "GET /logs/latest HTTP/1.1" 200 -
+DEBUG:__main__:Accessing /logs/latest route
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2025 19:35:56] "GET /logs/latest HTTP/1.1" 200 -
